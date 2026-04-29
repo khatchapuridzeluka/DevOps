@@ -4,7 +4,7 @@ This is my submission for the CI/CD Pipeline Automation assignment. It's a small
 
 ## Live app
 
-https://devops-5894.onrender.com/index.html/api/health
+https://devops-5894.onrender.com/index.html
 
 It's hosted on Render's free tier, which means the container goes to sleep after 15 minutes of inactivity. If you hit it cold, give it about 30 seconds to wake up before assuming it's broken.
 
