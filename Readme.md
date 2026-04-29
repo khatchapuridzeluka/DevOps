@@ -30,15 +30,15 @@ I also turned off Render's "Auto-Deploy on commit" setting. If I left it on, Ren
 
 A successful pipeline run, both jobs green:
 
-![Success](screenshots/actions-success.png)
+![Success](screenshots/success.webp)
 
 The live app responding:
 
-![App](screenshots/app-running.png)
+![App](screenshots/running.webp)
 
 A failing run — I pushed a deliberately broken test on a branch to demonstrate that the deploy job is skipped when tests fail:
 
-![Failure](screenshots/actions-failure.png)
+![Failure](screenshots/failed.webp)
 
 ## Deployment strategy
 
