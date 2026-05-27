@@ -11,7 +11,7 @@ public class CalculatorServiceTests
     [Fact]
     public void Add_TwoPositiveNumbers_ReturnsSum()
     {
-        var result = _sut.Add(2, 3);
+        var result = _sut.Add(2, 13);
         Assert.Equal(5, result);
     }
 
